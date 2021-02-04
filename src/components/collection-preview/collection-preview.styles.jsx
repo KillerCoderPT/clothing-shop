@@ -6,13 +6,13 @@ export const CollectionPreviewContainer = styled.div`
   margin-bottom: 30px;
 `;
 
-export const TitleContainer = styled.div`
-  display: flex;
+export const TitleContainer = styled.h1`
+  margin-bottom: 25px;
+  font-size: 28px;
+  cursor: pointer;
 
-  h1 {
-    margin-bottom: 25px;
-    font-size: 28px;
-    cursor: pointer;
+  &:hover {
+    color: grey;
   }
 `;
 
